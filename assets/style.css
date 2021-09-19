@@ -1,13 +1,14 @@
 :root {
-  --navy-blue: #03045eff;
-  --dark-cornflower-blue: #023e8aff;
-  --star-command-blue: #0077b6ff;
-  --blue-green: #0096c7ff;
-  --cerulean-crayola: #00b4d8ff;
-  --sky-blue-crayola: #48cae4ff;
-  --sky-blue-crayola-2: #90e0efff;
-  --blizzard-blue: #ade8f4ff;
-  --powder-blue: #caf0f8ff;
+  --prussian-blue: #012a4aff;
+  --indigo-dye: #013a63ff;
+  --indigo-dye-2: #01497cff;
+  --usafa-blue: #014f86ff;
+  --sapphire-blue: #2a6f97ff;
+  --celadon-blue: #2c7da0ff;
+  --blue-green: #468fafff;
+  --maximum-blue: #61a5c2ff;
+  --dark-sky-blue: #89c2d9ff;
+  --light-blue: #a9d6e5ff;
 }
 
 * {
@@ -23,16 +24,29 @@ body {
 
 /* SECTION 1: Header */
 
+/*
 header,
 h1,
 nav,
 div {
   border: 1px solid black;
 }
+*/
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 15px 15px 15px 0px;
+  background-color: var(--indigo-dye);
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+  font-size: 70px;
+  width: 500px;
+  padding: 10px;
+  background-color: var(--maximum-blue);
 }
 
 .nav-bar-link {
@@ -42,4 +56,12 @@ div {
 
 .nav-link {
   margin-left: 80px;
+  align-self: center;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--maximum-blue);
 }
