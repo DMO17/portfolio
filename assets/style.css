@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SECTION 1: Header */
+
+header,
+h1,
+nav,
+div {
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar-link {
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.nav-link {
+  margin-left: 80px;
+}
