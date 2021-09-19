@@ -68,8 +68,11 @@ div {
   color: var(--maximum-blue);
 }
 
+/* -------------------------------------------------------------------------------------------------------*/
+
 /* Media Responsive web-page for mobile phone 576px */
 @media only screen and (max-width: 576px) {
+  /* Section 1: Header*/
   .header {
     flex-direction: column;
     padding: 0;
@@ -89,4 +92,33 @@ div {
     margin: 7px 0;
     font-size: 25px;
   }
+}
+
+/* Media Responsive web-page for mobile phone 768px */
+@media only screen and (max-width: 768px) {
+  /* Section 1: Header*/
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 45px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .nav-bar-link {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 7px 0;
+    font-size: 25px;
+  }
+}
+
+/* Media Responsive web-page for mobile phone 768px */
+@media only screen and (max-width: 992px) {
+  /* Section 1: Header*/
 }
