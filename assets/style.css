@@ -70,7 +70,7 @@ div {
 
 /* -------------------------------------------------------------------------------------------------------*/
 
-/* Media Responsive web-page for mobile phone 576px */
+/* Media Responsive web-page for small mobile phone 576px */
 @media only screen and (max-width: 576px) {
   /* Section 1: Header*/
   .header {
@@ -94,7 +94,7 @@ div {
   }
 }
 
-/* Media Responsive web-page for mobile phone 768px */
+/* Media Responsive web-page for large mobile phone 768px */
 @media only screen and (max-width: 768px) {
   /* Section 1: Header*/
   .header {
@@ -103,7 +103,7 @@ div {
   }
 
   .logo {
-    font-size: 45px;
+    font-size: 50px;
     width: 100%;
     justify-content: flex-start;
   }
@@ -114,11 +114,19 @@ div {
 
   .nav-link {
     margin: 7px 0;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 
-/* Media Responsive web-page for mobile phone 768px */
+/* Media Responsive web-page for tablet 992px */
 @media only screen and (max-width: 992px) {
   /* Section 1: Header*/
+  .logo {
+    font-size: 50px;
+    width: 300px;
+  }
+
+  .nav-link {
+    font-size: 30px;
+  }
 }
