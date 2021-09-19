@@ -9,6 +9,7 @@
   --maximum-blue: #61a5c2ff;
   --dark-sky-blue: #89c2d9ff;
   --light-blue: #a9d6e5ff;
+  --powder-blue: #caf0f8ff;
 }
 
 * {
@@ -20,6 +21,7 @@
 body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  background-color: var(--powder-blue);
 }
 
 /* SECTION 1: Header */
@@ -51,7 +53,7 @@ div {
 
 .nav-bar-link {
   display: flex;
-  flex-flow: wrap row;
+  flex-direction: row;
 }
 
 .nav-link {
@@ -62,6 +64,29 @@ div {
 }
 
 .link {
-  text-decoration: underline;
+  text-decoration: underline 7px;
   color: var(--maximum-blue);
+}
+
+/* Media Responsive web-page for mobile phone 576px */
+@media only screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 45px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .nav-bar-link {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 7px 0;
+    font-size: 25px;
+  }
 }
