@@ -48,7 +48,8 @@ div {
   font-size: 70px;
   width: 500px;
   padding: 10px;
-  background-color: var(--maximum-blue);
+  background-color: var(--light-blue);
+  border-radius: 10px;
 }
 
 .nav-bar-link {
@@ -60,12 +61,12 @@ div {
   margin-left: 80px;
   align-self: center;
   font-size: 40px;
-  text-decoration: none;
 }
 
 .link {
   text-decoration: underline 7px;
-  color: var(--maximum-blue);
+  color: var(--light-blue);
+  text-decoration: underline;
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
@@ -95,7 +96,7 @@ div {
 }
 
 /* Media Responsive web-page for large mobile phone 768px */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 577px) {
   /* Section 1: Header*/
   .header {
     flex-direction: column;
@@ -119,7 +120,7 @@ div {
 }
 
 /* Media Responsive web-page for tablet 992px */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) and (min-width: 769px) {
   /* Section 1: Header*/
   .logo {
     font-size: 50px;
@@ -127,6 +128,7 @@ div {
   }
 
   .nav-link {
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 60px;
   }
 }
