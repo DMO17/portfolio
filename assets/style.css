@@ -22,6 +22,7 @@ body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
   background-color: var(--powder-blue);
+  color: var(--indigo-dye);
 }
 
 /* SECTION 1: Header */
@@ -50,6 +51,7 @@ div {
   padding: 10px;
   background-color: var(--light-blue);
   border-radius: 10px;
+  color: var(--indigo-dye);
 }
 
 .nav-bar-link {
@@ -67,6 +69,26 @@ div {
   text-decoration: underline 7px;
   color: var(--light-blue);
   text-decoration: underline;
+}
+
+/* SECTION 2: Banner */
+.banner {
+  border: 1px solid black;
+  height: 300px;
+  background-image: url("../assets/images/pawel-czerwinski-eUVI3DQrTsE-unsplash\ \(1\).jpg");
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.name {
+  text-decoration: solid;
+  font-size: 80px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
