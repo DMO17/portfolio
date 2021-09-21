@@ -1,13 +1,5 @@
 :root {
-  --prussian-blue: #012a4aff;
   --indigo-dye: #013a63ff;
-  --indigo-dye-2: #01497cff;
-  --usafa-blue: #014f86ff;
-  --sapphire-blue: #2a6f97ff;
-  --celadon-blue: #2c7da0ff;
-  --blue-green: #468fafff;
-  --maximum-blue: #61a5c2ff;
-  --dark-sky-blue: #89c2d9ff;
   --light-blue: #a9d6e5ff;
   --powder-blue: #caf0f8ff;
 }
@@ -21,6 +13,8 @@
 body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.3;
   background-color: var(--powder-blue);
   color: var(--indigo-dye);
 }
@@ -39,14 +33,14 @@ div {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 15px 15px 0px;
+  padding: 1rem 1rem 1rem 0px;
   background-color: var(--indigo-dye);
 }
 
 .logo {
   display: flex;
   justify-content: end;
-  font-size: 70px;
+  font-size: 3rem;
   width: 500px;
   padding: 10px;
   background-color: var(--light-blue);
@@ -62,11 +56,11 @@ div {
 .nav-link {
   margin-left: 80px;
   align-self: center;
-  font-size: 40px;
+  font-size: 1.7rem;
 }
 
 .link {
-  text-decoration: underline 7px;
+  text-decoration: underline 0.7rem;
   color: var(--light-blue);
   text-decoration: underline;
 }
@@ -91,9 +85,40 @@ div {
   left: 50%;
   transform: translate(-50%, -50%);
   animation-name: example;
-  animation-duration:4s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
+}
 
+/* SECTION 3: About me / img  */
+
+.about-me-img-container,
+.img-section,
+.about-me {
+  border: 1px black solid;
+}
+
+.about-me-img-container {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-section {
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-me {
+  flex: 2;
+  position: relative;
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
@@ -162,7 +187,31 @@ div {
 
 /* -------------------------------------------------------------------------------------------------------*/
 @keyframes example {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  100% {color: green;}
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    right: 0;
+  }
+  25% {
+    right: 50;
+  }
+  50% {
+    right: 30;
+  }
+  100% {
+    right: 40;
+  }
+}
