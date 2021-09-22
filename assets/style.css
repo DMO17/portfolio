@@ -188,6 +188,7 @@ div {
 
   .about-me-content {
     position: static;
+    justify-content: center;
   }
 }
 
@@ -222,6 +223,24 @@ div {
   }
   .banner {
     height: 25rem;
+  }
+
+  /* Section 3: About Me and IMG container*/
+
+  .about-me-img-container {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .about-me-header {
+    margin-top: 0.5rem;
+    position: static;
+    text-align: center;
+  }
+
+  .about-me-content {
+    position: static;
+    justify-content: center;
   }
 }
 
