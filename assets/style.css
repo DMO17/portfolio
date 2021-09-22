@@ -257,6 +257,37 @@ div {
     font-size: 2rem;
     margin-left: 60px;
   }
+
+  /* Section 2: Banner*/
+
+  .name {
+    font-size: 6rem;
+  }
+  .banner {
+    height: 25rem;
+  }
+
+  /* Section 3: About Me and IMG container*/
+
+  .about-me-img-container {
+    margin: 0;
+    flex-direction: row-reverse;
+  }
+
+  .img-section {
+    width: 35rem;
+  }
+
+  .about-me-header {
+    margin-top: 0.5rem;
+    position: static;
+    text-align: center;
+  }
+
+  .about-me-content {
+    position: static;
+    justify-content: center;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
