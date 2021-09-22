@@ -140,12 +140,18 @@ div {
 
 /* SECTION 4: Main Project */
 .entire-project,
-.project,
 .main-project,
-.main-project img,
+.main-img-container,
+.main-img-container img,
 .project-header,
 .project-title {
   border: black 1px solid;
+}
+
+.entire-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-header {
@@ -155,22 +161,22 @@ div {
   margin-bottom: 2rem;
 }
 
-.project {
-  margin-right: 10rem;
-  margin-left: 10rem;
+.main-project {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 90rem;
+  opacity: 0.65;
 }
 
-.main-project {
+.main-img-container {
   font-size: 2rem;
   width: 90rem;
   height: 50rem;
 }
 
-.main-project img {
+.main-img-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -178,14 +184,19 @@ div {
 
 .project-title {
   font-size: 2rem;
-  background-color: var(--indigo-dye);
-  color: var(--light-blue);
+  background-color: var(--light-blue);
+  color: var(--indigo-dye);
   display: flex;
   flex-wrap: wrap;
   width: 20rem;
   position: absolute;
   text-align: center;
   padding: 1.1rem;
+}
+
+.main-project:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 /* SECTION 5: Future Projects */
