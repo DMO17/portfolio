@@ -171,7 +171,6 @@ div {
 }
 
 .main-img-container {
-  font-size: 2rem;
   width: 90rem;
   height: 50rem;
 }
@@ -211,6 +210,35 @@ div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 3rem 10rem;
+}
+
+.future-projects {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+}
+
+.future-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pending-project-title {
+  font-size: 2rem;
+  background-color: var(--light-blue);
+  color: var(--indigo-dye);
+  position: absolute;
+  top: 0;
+  right: 17.5%;
+  text-align: center;
+}
+
+.future-projects:hover {
+  transform: scale(1.1);
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
