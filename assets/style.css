@@ -99,8 +99,11 @@ div {
 }
 */
 
-.about-me-img-container {
+main {
   margin: 5rem 10rem;
+}
+
+.about-me-img-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -136,6 +139,25 @@ div {
   position: absolute;
   left: 10%;
   top: 20%;
+}
+
+/* SECTION 4: Main Project */
+.main-project {
+  border: black 1px solid;
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+/* SECTION 5: Future Projects */
+.future-projects-container,
+.future-projects {
+  border: 1px solid black;
+  font-size: 2rem;
+}
+
+.future-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
