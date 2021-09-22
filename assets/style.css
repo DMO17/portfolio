@@ -139,9 +139,25 @@ div {
 }
 
 /* SECTION 4: Main Project */
+
+.project {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-project {
   border: black 1px solid;
   font-size: 2rem;
+  width: 90rem;
+  height: 50rem;
+}
+
+.main-project img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 /* SECTION 5: Future Projects */
 .future-projects-container,
