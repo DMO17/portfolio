@@ -141,6 +141,7 @@ div {
 /* -------------------------------------------------------------------------------------------------------*/
 
 /* Media Responsive web-page for small mobile phone 576px */
+
 @media only screen and (max-width: 576px) {
   /* Section 1: Header*/
   .header {
@@ -149,7 +150,7 @@ div {
   }
 
   .logo {
-    font-size: 45px;
+    font-size: 3rem;
     width: 100%;
     justify-content: flex-start;
   }
@@ -160,11 +161,38 @@ div {
 
   .nav-link {
     margin: 7px 0;
-    font-size: 25px;
+    font-size: 2rem;
+  }
+
+  /* Section 2: Banner*/
+
+  .name {
+    font-size: 5rem;
+  }
+  .banner {
+    height: 20rem;
+  }
+
+  /* Section 3: About Me and IMG container*/
+
+  .about-me-img-container {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .about-me-header {
+    margin-top: 0.5rem;
+    position: static;
+    text-align: center;
+  }
+
+  .about-me-content {
+    position: static;
   }
 }
 
 /* Media Responsive web-page for large mobile phone 768px */
+
 @media only screen and (max-width: 768px) and (min-width: 577px) {
   /* Section 1: Header*/
   .header {
@@ -173,7 +201,7 @@ div {
   }
 
   .logo {
-    font-size: 50px;
+    font-size: 3rem;
     width: 100%;
     justify-content: flex-start;
   }
@@ -184,20 +212,30 @@ div {
 
   .nav-link {
     margin: 7px 0;
-    font-size: 30px;
+    font-size: 2rem;
+  }
+
+  /* Section 2: Banner*/
+
+  .name {
+    font-size: 6rem;
+  }
+  .banner {
+    height: 25rem;
   }
 }
 
 /* Media Responsive web-page for tablet 992px */
+
 @media only screen and (max-width: 992px) and (min-width: 769px) {
   /* Section 1: Header*/
   .logo {
-    font-size: 50px;
+    font-size: 3rem;
     width: 300px;
   }
 
   .nav-link {
-    font-size: 25px;
+    font-size: 2rem;
     margin-left: 60px;
   }
 }
