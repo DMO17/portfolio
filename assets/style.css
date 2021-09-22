@@ -99,11 +99,8 @@ div {
 }
 */
 
-main {
-  margin: 5rem 10rem;
-}
-
 .about-me-img-container {
+  margin: 5rem 10rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -145,13 +142,13 @@ main {
 .main-project {
   border: black 1px solid;
   font-size: 2rem;
-  margin: 3rem 0;
 }
 /* SECTION 5: Future Projects */
 .future-projects-container,
 .future-projects {
   border: 1px solid black;
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .future-projects-container {
@@ -199,6 +196,7 @@ main {
 
   .about-me-img-container {
     margin: 0;
+    margin-bottom: 5rem;
     justify-content: center;
   }
 
@@ -293,6 +291,7 @@ main {
 
   .about-me-img-container {
     margin: 0;
+    margin-bottom: 5rem;
     flex-direction: row-reverse;
   }
 
