@@ -139,6 +139,7 @@ div {
 }
 
 /* SECTION 4: Main Project */
+
 .entire-project,
 .main-project,
 .main-img-container,
@@ -199,6 +200,7 @@ div {
 }
 
 /* SECTION 5: Future Projects */
+
 .future-projects-container,
 .future-projects {
   border: 1px solid black;
@@ -382,6 +384,7 @@ div {
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
   /* Section 1: Header*/
+
   .logo {
     font-size: 3rem;
     width: 300px;
@@ -438,6 +441,16 @@ div {
 
   .project-title {
     font-size: 1rem;
+  }
+
+  /* SECTION 5: Future Projects */
+
+  .future-projects-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem 10rem;
   }
 }
 
