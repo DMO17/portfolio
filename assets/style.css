@@ -83,7 +83,8 @@ body {
 /* SECTION 3: About me / img  */
 
 .about-me-img-container {
-  margin: 2rem 10rem;
+  margin: 1.5rem 2rem;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -116,10 +117,12 @@ body {
 }
 
 .about-me-content {
+  margin: 0;
   font-size: 1.95rem;
   position: absolute;
   left: 10%;
   top: 20%;
+  text-overflow: inherit;
 }
 
 /* SECTION 4: Main Project */
@@ -186,7 +189,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 3rem 10rem;
+  margin: 3rem 7rem;
 }
 
 .future-projects {
@@ -218,6 +221,32 @@ body {
   transform: scale(1.1);
 }
 
+/* SECTION 5: contact me  */
+
+.contact-me-container,
+.contact-me-title,
+.c-title,
+.contact-link-container {
+  border: 1px black solid;
+}
+
+.contact-me-title {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.contact-link-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details {
+  font-size: 2rem;
+}
+
+.details h3 {
+  text-align: center;
+}
 /* -------------------------------------------------------------------------------------------------------*/
 
 /* Media Responsive web-page for small mobile phone 576px */
