@@ -423,6 +423,22 @@ div {
     position: static;
     justify-content: center;
   }
+
+  /* SECTION 4: Main Project */
+
+  .main-img-container {
+    width: 60rem;
+  }
+
+  .main-project {
+    width: 60rem;
+    height: 25rem;
+    margin-bottom: 10rem;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
