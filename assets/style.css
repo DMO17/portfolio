@@ -90,7 +90,7 @@ body {
 }
 
 .img-section {
-  width: 37rem;
+  width: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,13 +143,12 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 90rem;
+  width: 67rem;
   border: 0.5rem var(--indigo-dye) solid;
 }
 
 .main-img-container {
-  width: 90rem;
-  height: 50rem;
+  width: 65rem;
 }
 
 .main-img-container img {
@@ -296,17 +295,17 @@ body {
   .about-me-img-container {
     margin: 0;
     margin-bottom: 5rem;
+    flex-direction: column;
     justify-content: center;
   }
 
   .about-me-header {
     margin-top: 0.5rem;
-    position: static;
+
     text-align: center;
   }
 
   .about-me-content {
-    position: static;
     justify-content: center;
   }
 
@@ -330,6 +329,7 @@ body {
 
 @media only screen and (max-width: 768px) and (min-width: 577px) {
   /* Section 1: Header*/
+
   .header {
     flex-direction: column;
     padding: 0;
@@ -363,17 +363,17 @@ body {
 
   .about-me-img-container {
     margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   .about-me-header {
     margin-top: 0.5rem;
-    position: static;
     text-align: center;
   }
 
   .about-me-content {
-    position: static;
     justify-content: center;
   }
 
