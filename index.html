@@ -15,6 +15,8 @@
   </head>
 
   <body>
+    <!-- The logo and nav-links are nested in a header tag  -->
+
     <header class="header">
       <h1 class="logo">PORTFOLIO</h1>
 
@@ -28,10 +30,18 @@
         </div>
       </nav>
     </header>
+
+    <!-- The h1 tag containing my name is nested in a div tag that also contains a background img   -->
+
     <div class="banner">
       <h1 class="name">Dahir A Mohamed</h1>
     </div>
+
+    <!-- The main content of the webpage which is the about me, projects and contact me section is all nested in a main tag -->
+
     <main>
+      <!--  the about me section contains an avatar, about me title and contents which is all nested in a section tag -->
+
       <section class="about-me-img-container">
         <div class="img-section">
           <img
@@ -57,9 +67,15 @@
           </p>
         </div>
       </section>
+
+      <!-- the second section within the main tag contains the enlarged main project card and smaller pending project cards   -->
+
       <section class="entire-project">
+        <!-- Main project section that contains an enlarged project card img that is nested in a anchor tag  -->
+
         <h2 id="projects" class="project-header">Projects</h2>
-        <section class="main-project">
+
+        <div class="main-project">
           <div class="main-img-container">
             <a
               href="https://dmo17.github.io/semantic-html-refactor/"
@@ -75,9 +91,11 @@
           <div class="project-title">
             <h3>Semantic HTML & CSS Refactor</h3>
           </div>
-        </section>
+        </div>
 
-        <section class="future-projects-container">
+        <!-- Placeholder img cards that is nested in a div tag which is all nested in a div tag -->
+
+        <div class="future-projects-container">
           <div class="future-projects">
             <img src=".//assets/images/project-icon.PNG" alt="project-icon" />
 
@@ -113,8 +131,10 @@
 
             <h3 class="pending-project-title">Coming Soon</h3>
           </div>
-        </section>
+        </div>
       </section>
+
+      <!-- this section consists of a div tags with anchor tags linking them to websites. this is all nested in a section tag-->
 
       <section class="contact-me-container">
         <h2 id="contact" class="contact-me-title">Contact Me</h2>
