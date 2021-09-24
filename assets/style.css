@@ -100,7 +100,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border: 0.5rem var(--indigo-dye) solid;
 }
 
 .about-me {
