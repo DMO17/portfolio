@@ -84,10 +84,9 @@ body {
 
 .about-me-img-container {
   margin: 1.5rem 2rem;
-  margin-bottom: 5rem;
+
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .img-section {
@@ -107,19 +106,18 @@ body {
 .about-me {
   flex: 2;
   position: relative;
+  padding-left: 1.5rem;
 }
 
 .about-me-header {
   font-size: 4.5rem;
   text-decoration: underline;
-  position: absolute;
   left: 10%;
 }
 
 .about-me-content {
   margin: 0;
   font-size: 1.95rem;
-  position: absolute;
   left: 10%;
   top: 20%;
   text-overflow: inherit;
@@ -223,21 +221,25 @@ body {
 
 /* SECTION 5: contact me  */
 
-.contact-me-container,
-.contact-me-title,
-.c-title,
-.contact-link-container {
-  border: 1px black solid;
+.contact-me-container {
+  background-color: var(--indigo-dye);
 }
 
 .contact-me-title {
   font-size: 4.5rem;
+  text-decoration: underline;
   text-align: center;
+  margin-bottom: 1rem;
+  color: var(--powder-blue);
 }
 
 .contact-link-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 3rem;
+  color: var(--powder-blue);
 }
 
 .details {
@@ -247,6 +249,13 @@ body {
 .details h3 {
   text-align: center;
 }
+
+.details a {
+  text-decoration: none;
+  font-style: italic;
+  color: var(--light-blue);
+}
+
 /* -------------------------------------------------------------------------------------------------------*/
 
 /* Media Responsive web-page for small mobile phone 576px */
