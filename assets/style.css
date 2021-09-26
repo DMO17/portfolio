@@ -75,7 +75,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation-name: example;
+  animation-name: coloranimation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
@@ -484,7 +484,7 @@ body {
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
-@keyframes example {
+@keyframes coloranimation {
   0% {
     color: red;
   }
@@ -496,20 +496,5 @@ body {
   }
   100% {
     color: green;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    right: 0;
-  }
-  25% {
-    right: 50;
-  }
-  50% {
-    right: 30;
-  }
-  100% {
-    right: 40;
   }
 }
