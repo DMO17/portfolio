@@ -2,7 +2,7 @@
 
 ## Description:
 
-Creating a work portfolio highlighting my abilities and achievements using a variety of advanced HTML and CSS skills with no frameworks.
+Created a work portfolio highlighting my abilities and achievements using a variety of advanced HTML and CSS skills with no frameworks.
 
 ## Complete Portfolio:
 
@@ -16,7 +16,7 @@ To see the full URL deployed web-application project <a href="https://dmo17.gith
 
 ![web-page-preview](./assets/screenshots/portfolio-secreenshot-preview.png)
 
-## Portfolio completed:
+## Portfolio Work completed:
 
 - Added an appropriate and descriptive document title
 - Utilized semantic-Html tags like main, section, header and etc in appropriate places
