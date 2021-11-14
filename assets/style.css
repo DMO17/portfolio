@@ -143,7 +143,6 @@ body {
   align-items: center;
   position: relative;
   width: 67rem;
-  border: 0.5rem var(--indigo-dye) solid;
 }
 
 .main-img-container {
@@ -185,7 +184,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 3rem 7rem;
+  align-content: center;
+  flex-direction: row;
+  border: black 1px solid;
+  padding: 3rem;
 }
 
 .future-projects {
@@ -283,7 +285,7 @@ body {
   /* Section 2: Banner*/
 
   .name {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .banner {
     height: 20rem;
@@ -309,6 +311,10 @@ body {
   }
 
   /* SECTION 4: Main Project */
+
+  .main-project {
+    width: 36rem;
+  }
 
   .main-img-container {
     width: 34rem;
@@ -378,8 +384,12 @@ body {
 
   /* SECTION 4: Main Project */
 
+  .main-project {
+    width: 36rem;
+  }
+
   .main-img-container {
-    width: 45rem;
+    width: 34rem;
   }
 
   .main-project {
