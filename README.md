@@ -14,7 +14,9 @@ To see the full URL deployed web-application project <a href="https://dmo17.gith
 
 ## Preview Image Of Web-page:
 
-![web-page-preview](./assets/screenshots/portfolio-secreenshot-preview.png)
+![web-page-preview](./assets/screenshots/portfo1.png)
+
+![web-page-preview](./assets/screenshots/portfo2.png)
 
 ## Portfolio Work completed:
 
